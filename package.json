@@ -1,0 +1,27 @@
+{
+  "name": "nodelog",
+  "version": "1.0.0",
+  "description": "Node Log Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usbpendrive/nodelog.git"
+  },
+  "keywords": [],
+  "author": "Fernando <ferry.fernando@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usbpendrive/nodelog/issues"
+  },
+  "homepage": "https://github.com/usbpendrive/nodelog#readme",
+  "dependencies": {
+    "ansi-styles": "^2.2.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
